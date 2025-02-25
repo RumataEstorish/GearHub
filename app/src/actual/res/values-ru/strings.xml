@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="socialgear_description">Интеграция с ВКонтакте</string>
+    <!-- SocialGear -->
+    <string name="social_gear_foreground_channel_name">Подключение к часам</string>
+</resources>

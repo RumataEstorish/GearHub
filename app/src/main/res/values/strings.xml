@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string translatable="false" name="transgear">TransGear</string>
+    <string translatable="false" name="enotegear">ENoteGear</string>
+    <string translatable="false" name="squaregear">SquareGear</string>
+    <string translatable="false" name="taskgear">TaskGear</string>
+    <string translatable="false" name="todogear">TodoGear</string>
+
+
+    <string name="app_name">GearHub</string>
+    <string name="notification_permission_title">Allow notifications</string>
+    <string name="notification_permission_description">Please, allow notifications to control synch process with watch</string>
+    <string name="add_service_invite">Press + to add at least one service</string>
+    <string name="not_supported">Sorry, you device not supported to work with Samsung accessory for Tizen Wearable. Try connect Tizen watch first.</string>
+    <string name="login_button">Login</string>
+    <string name="logout_button">Logout</string>
+    <string name="remove_button">Remove</string>
+    <string name="settings_button">Settings</string>
+    <string name="remove_confirm">Remove service from list?</string>
+    <string name="remove_webprovider_confirm">If you remove service, it will logout. You can add and login later. Continue?</string>
+    <string name="service_removed_permission_not_granted">removed because permission haven\'t granted</string>
+    <string name="account">Account</string>
+    <string name="acquiring_location">Acquiring location</string>
+    <string name="permission_required">Service %1$s cannot work without permission %2$s. Please give permission in settings.</string>
+    <string name="remove_service">Remove service</string>
+    <string name="locatiion_permission">Location</string>
+    <string name="storage_permission">Storage</string>
+
+    <string name="enotegear_description">Evernote integration</string>
+    <string name="taskgear_description">Todoist integration</string>
+    <string name="todogear_description">Toodledo integration</string>
+    <string name="squaregear_description">FourSquare integration</string>
+    <string name="walletgear_description">Toshl integration</string>
+
+    <string name="transgear_description">Transfer your files between watches and phone through \'Share Via\' menu</string>
+    <string name="all">All</string>
+
+    <string name="more_apps">More apps</string>
+
+    <integer name="com_vk_sdk_AppId">0</integer>
+    <string name="app_icon">App icon</string>
+    <string name="foreground_service">Foreground service</string>
+    <string name="foreground_service_description">Basic watch communication</string>
+    <string name="foreground_service_net_description">Network requests</string>
+    <string name="foreground_service_location_description">Acquire location</string>
+    <string name="foreground_service_connection_description">Connecting to watch</string>
+    <string name="foreground_service_send_data_description">Sending data to watch</string>
+    <string name="foreground_service_open_link_description">Open link from watch</string>
+    <string name="foreground_title">Running</string>
+    <string name="foreground_content">Touch for more options.</string>
+    <string name="foreground_open_link_title">Open link</string>
+    <string name="foreground_net_title">Network</string>
+    <string name="foreground_net_content">Performing network request</string>
+    <string name="foreground_location_title">Location</string>
+    <string name="foreground_location_content">Acquiring location</string>
+    <string name="foreground_connection_title">Connection</string>
+    <string name="foreground_sending_title">Sending</string>
+    <string name="foreground_connection_description">Connecting to watch</string>
+    <string name="foreground_sending_description">Sending data to watch</string>
+    <string name="zero">0</string>
+    <string name="foreground_disable_warning">Disabling this option may cause unstable work. Continue?</string>
+    <string name="content_is_too_large">Content is too large to view on Gear</string>
+    <string name="browser_not_found">Application for opening links not found</string>
+    <string name="transgear_channel_name">Send/receive notification</string>
+    <string name="transgear_foreground_connection_channel_name">Connection to watch</string>
+    <string name="choose_services">Choose services</string>
+    <string name="auth_failed">Authorization failed</string>
+
+
+    <!-- SQUAREGEAR -->
+    <string name="squaregear_foreground_location_channel_name">Location requests</string>
+    <string name="squaregear_foreground_network_channel_name">Network requests</string>
+    <string name="squaregear_foreground_connection_channel_name">Connection to watch</string>
+    <string name="mention_friends_text">- with</string>
+    <string name="receiving_friends">Acquiring friends&#8230;</string>
+    <string name="refresh_friends">Friends list</string>
+    <string name="refresh_friends_prompt">Upload friends from FourSquare?</string>
+    <string name="refresh_friends_description">Reload</string>
+    <string name="clear_images_cache">Clear images cache</string>
+    <string name="clear_images_cache_prompt">Clear images cache?</string>
+    <string name="clear_images_cache_description">Venues images</string>
+    <string name="set_venues_limit_label">Show venues:</string>
+    <string name="venuesLimitOutOfRange">Venues limit out of range</string>
+    <string name="loading">Talking to Foursquare servers…</string>
+    <string name="app_not_installed_message">To do this, you’ll need the latest version of Foursquare installed.</string>
+    <string name="settings">Settings</string>
+    <string name="squaregear_background_location_title">Background location permission</string>
+    <string name="squaregear_background_location_description">This app collects location data to enable gathering of venues list for Samsung Watches that do not have GPS even when the app is closed or not in use. This location data will be sent only to FourSquare servers and nowhere else</string>
+
+    <!-- TRANSGEAR -->
+    <string name="transgear_completed">Transfer completed!</string>
+    <string name="transgear_transfer_in_progress">Transfer in progress</string>
+    <string name="uploading">Uploading</string>
+    <string name="uploading_canceled">Canceled</string>
+    <string name="error_command_dropped">Command dropped</string>
+    <string name="error_connection_lost">Connection lost</string>
+    <string name="error_file_io">File IO error</string>
+    <string name="error_peer_agent_busy">Another file already in transfer</string>
+    <string name="error_peer_agent_no_response">Gear no response</string>
+    <string name="error_request_not_queued">Request not queued</string>
+    <string name="error_space_not_available">Space not available</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="cancel_transfer_dialog_title">Cancel transfer</string>
+    <string name="cancel_transfer_single_file">Current transferred file will be canceled</string>
+    <string name="cancel_transfer_multiple_files">All files transfer will be canceled</string>
+
+    <string name="ringtones_not_available">Ringtones are supported only by Gear S</string>
+    <string name="more_files">more</string>
+    <string name="waiting_connection">Waiting Gear connection</string>
+    <string name="cancel_all">Cancel all</string>
+    <string name="file_in_queue">File already in transfer</string>
+
+    <!--ENoteGear-->
+    <string name="enotegear_sync_content">Sync note content</string>
+    <string name="enotegear_sync_content_description">Can take much longer</string>
+    <string name="enotegear_sync_all_notebooks">Sync all notebooks</string>
+    <string name="enotegear_choose_notebooks">Choose notebooks for sync</string>
+    <string name="enotegear_sync_notebooks">Sync notebooks</string>
+    <string name="enotegear_foreground_channel_name">Synchronization</string>
+    <string name="enotegear_notification_title">Synchronization</string>
+    <string name="enotegear_notification_content">Performing synchronization</string>
+    <string name="enotegear_tags">Tags</string>
+    <string name="enotegear_notes">Notes</string>
+    <string name="enotegear_notebooks">Notebooks</string>
+    <string name="enotegear_exchange_data">Exchange data</string>
+    <string name="enotegear_login_warn">Relaunch login if stuck on white screen</string>
+
+
+
+    <!-- TaskGear -->
+    <string name="taskgear_foreground_network_channel_name">Network requests</string>
+    <string name="taskgear_foreground_connection_channel_name">Connection to watch</string>
+
+    <!-- TodoGear -->
+    <string name="todogear_foreground_network_channel_name">Network requests</string>
+    <string name="todogear_foreground_connection_channel_name">Connection to watch</string>
+
+    <string name="battery_optimization_warning">For correct application work, please allow to ignore battery optimization</string>
+
+</resources>

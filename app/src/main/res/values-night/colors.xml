@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="samsung_background_color">#000000</color>
+    <color name="samsung_text_primary_color">#FFFFFF</color>
+    <color name="samsung_text_secondary_color">#e8e9ee</color>
+    <color name="samsung_alert_dialog_background_color">#252525</color>
+</resources>

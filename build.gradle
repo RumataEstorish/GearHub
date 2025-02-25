@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext{
+        target_sdk = 34
+        compile_sdk = 34
+        kotlin_version = '1.9.24'
+        okhttp_version_legacy = '3.14.9'
+        okhttp_version = '4.12.0'
+        build_tools_version = '35.0.0'
+    }
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+        maven {
+            // r8 maven
+            url = uri("https://storage.googleapis.com/r8-releases/raw")
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // r8 version
+        classpath("com.android.tools:r8:8.3.37")
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+    }
+}
+

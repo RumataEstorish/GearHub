@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="InvalidPackage">
+        <ignore path="**/jaxb-impl*.jar"/>
+        <ignore path="**/toothpick*.jar"/>
+    </issue>
+</lint>

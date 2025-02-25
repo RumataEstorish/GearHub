@@ -1,0 +1,19 @@
+# Mac OS
+.DS_Store
+
+# Android
+local.properties
+
+# Gradle
+.gradle
+build
+
+# IntelliJ Idea
+*.iml
+.idea/*
+!.idea/codeStyleSettings.xml
+!.idea/inspectionProfiles
+
+/local.properties
+/captures
+.externalNativeBuild

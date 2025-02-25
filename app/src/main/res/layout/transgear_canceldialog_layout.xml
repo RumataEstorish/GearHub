@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_round"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/dialogContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:textColor="?android:attr/textColorPrimary"
+            tools:text="Вы хотите отменить передачу последнего файла?" />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="end">
+
+        <Button
+                android:id="@+id/dialogNegativeButton"
+                android:textColor="?android:attr/textColorPrimary"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@android:string/cancel" />
+
+        <Button
+                android:id="@+id/dialogPositiveButton"
+                android:textColor="?android:attr/textColorPrimary"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@android:string/ok" />
+    </LinearLayout>
+</LinearLayout>

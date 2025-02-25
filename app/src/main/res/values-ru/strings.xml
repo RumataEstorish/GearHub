@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">GearHub</string>
+    <string name="notification_permission_title">Разрешите уведомления</string>
+    <string name="notification_permission_description">Пожалуйста, разрешите уведомления чтобы управлять синхронизацией с часами</string>
+    <string name="add_service_invite">Нажмите + чтобы добавить хотя бы один сервис</string>
+    <string name="not_supported">Извините, ваше устройство не подходит для работы с аксессуарами Samsung на Tizen. Попробуйте сначала подключить часы на Tizen.</string>
+    <string name="login_button">Вход</string>
+    <string name="logout_button">Выход</string>
+    <string name="remove_button">Удалить</string>
+    <string name="settings_button">Настройки</string>
+    <string name="remove_confirm">Убрать сервис из списка?</string>
+    <string name="remove_webprovider_confirm">Если вы удалите сервис, то он выйдет из аккаунта. Вы можете войти снова пожзе. Продолжить?</string>
+    <string name="service_removed_permission_not_granted">удалён потому что не было дано разрешение</string>
+    <string name="account">Аккаунт</string>
+    <string name="acquiring_location">Получение местоположения</string>
+    <string name="permission_required">Сервис %1$s не может работать без разрешения %2$s. Пожалуйста дайте разрешение в настройках.</string>
+    <string name="remove_service">Убрать сервис</string>
+    <string name="locatiion_permission">Местоположение</string>
+    <string name="storage_permission">Хранилище</string>
+
+
+    <string name="enotegear_description">Интеграция с Evernote</string>
+
+    <string name="taskgear_description">Интеграция с Todoist</string>
+    <string name="todogear_description">Интеграция с Toodledo</string>
+    <string name="squaregear_description">Интеграция с FourSquare</string>
+    <string name="walletgear_description">Интеграция с Toshl</string>
+    <string name="transgear_description">Передавайте файлы между часами и телефоном через меню \'поделиться\'</string>
+    <string name="more_apps">Ещё приложения</string>
+
+    <string name="app_icon">Иконка приложения</string>
+    <string name="foreground_service">Фоновая служба</string>
+    <string name="foreground_service_description">Базовый обмен данными с часами</string>
+    <string name="foreground_service_net_description">Сетевые запросы</string>
+    <string name="foreground_service_location_description">Получение местоположения</string>
+    <string name="foreground_service_connection_description">Подключение к часам</string>
+    <string name="foreground_sending_description">Отправка данных на часы</string>
+    <string name="foreground_service_send_data_description">Отправка данных на часы</string>
+    <string name="foreground_service_open_link_description">Открытие ссылки с часов</string>
+
+
+    <string name="foreground_title">Работает</string>
+    <string name="foreground_content">Нажмите для дополнительных опций</string>
+    <string name="foreground_open_link_title">Открыть ссылку</string>
+    <string name="foreground_net_title">Сеть</string>
+    <string name="foreground_net_content">Выполнение сетевого запроса</string>
+    <string name="foreground_location_title">Местоположение</string>
+    <string name="foreground_location_content">Получение местоположения</string>
+    <string name="foreground_connection_title">Подключение</string>
+    <string name="foreground_sending_title">Отправка</string>
+    <string name="foreground_connection_description">Подключение к часам</string>
+    <string name="zero">0</string>
+    <string name="foreground_disable_warning">Отключение этой опции может привести к нестабильной работе. Продолжить?</string>
+    <string name="all">Все</string>
+    <string name="content_is_too_large">Содержимое слишком большое для просмотра на часах</string>
+    <string name="browser_not_found">Приложение для открытия ссылок не найдено</string>
+
+    <string name="transgear_channel_name">Отправка/получение</string>
+    <string name="transgear_foreground_connection_channel_name">Подключение к часам</string>
+    <string name="choose_services">Выберите сервисы</string>
+    <string name="auth_failed">Ошибка авторизации</string>
+
+    <!-- SQUAREGEAR -->
+    <string name="squaregear_foreground_location_channel_name">Запросы местоположения</string>
+    <string name="squaregear_foreground_network_channel_name">Сетевые запросы</string>
+    <string name="squaregear_foreground_connection_channel_name">Подключение к часам</string>
+    <string name="mention_friends_text">- c</string>
+    <string name="receiving_friends">Получаем список друзей&#8230;</string>
+    <string name="clear_images_cache">Очистить кэш изображений</string>
+    <string name="clear_images_cache_prompt">Очистить кэш изображений?</string>
+    <string name="clear_images_cache_description">Изображения мест</string>
+    <string name="refresh_friends">Список друзей</string>
+    <string name="refresh_friends_prompt">Загрузить друзей с FourSquare?</string>
+    <string name="refresh_friends_description">Обновить</string>
+    <string name="set_venues_limit_label">Показывать мест:</string>
+    <string name="loading">Обращаемся к серверам FourSquare…</string>
+    <string name="venuesLimitOutOfRange">Количество мест за границей диапазона</string>
+    <string name="app_not_installed_message">Установите последнюю версию FourSquare, чтобы продолжить.</string>
+    <string name="settings">Настройки</string>
+    <string name="squaregear_background_location_title">Разрешение фонового местоположения</string>
+    <string name="squaregear_background_location_description">Это приложение собирает данные о местоположении чтобы получать список мест для часов без GPS даже если приложение закрыто. Эти данные будут отправляться только на сервера FourSquare и никуда более.</string>
+
+
+    <!-- TRANSGEAR -->
+    <string name="transgear_completed">Передача завершена!</string>
+    <string name="uploading">Передача</string>
+    <string name="uploading_canceled">Отменено</string>
+    <string name="transgear_transfer_in_progress">Идёт передача</string>
+    <string name="error_command_dropped">Команда была проигнорирована</string>
+    <string name="error_connection_lost">Соединение потеряно</string>
+    <string name="error_file_io">Ошибка ввода/вывода</string>
+    <string name="error_peer_agent_busy">Уже идёт передача другого файла</string>
+    <string name="error_peer_agent_no_response">Gear не отвечает</string>
+    <string name="error_request_not_queued">Запрос не обслужен</string>
+    <string name="error_space_not_available">Не достаточно места</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="cancel_transfer_dialog_title">Отменить передачу</string>
+    <string name="cancel_transfer_single_file">Передача текущего файла будет отменена</string>
+    <string name="cancel_transfer_multiple_files">Передача всех файлов будет отменена</string>
+
+    <string name="ringtones_not_available">Рингтоны поддерживаются только Gear S</string>
+    <string name="more_files">ещё</string>
+    <string name="waiting_connection">Ожидаем подключения к Gear</string>
+    <string name="cancel_all">Отменить все</string>
+    <string name="file_in_queue">Файл уже в очереди</string>
+
+    <!--ENoteGear-->
+    <string name="enotegear_sync_content">Синхр. содержимое заметки</string>
+    <string name="enotegear_sync_content_description">Может занять больше времени и трафика</string>
+    <string name="enotegear_sync_all_notebooks">Синхр. все блокноты</string>
+    <string name="enotegear_choose_notebooks">Выберите блокноты для синхр</string>
+    <string name="enotegear_sync_notebooks">Синхр. блокноты</string>
+    <string name="enotegear_foreground_channel_name">Служба синхронизации</string>
+    <string name="enotegear_notification_title">Синхронизация</string>
+    <string name="enotegear_notification_content">Выполняется синхронизация</string>
+    <string name="enotegear_tags">Метки</string>
+    <string name="enotegear_notes">Заметки</string>
+    <string name="enotegear_notebooks">Блокноты</string>
+    <string name="enotegear_exchange_data">Обмен данными</string>
+    <string name="enotegear_login_warn">Перезапустите вход, если застряло на белом экране</string>
+
+
+    <!-- TaskGear -->
+    <string name="taskgear_foreground_network_channel_name">Сетевые запросы</string>
+    <string name="taskgear_foreground_connection_channel_name">Подключение к часам</string>
+
+    <!-- TodoGear -->
+    <string name="todogear_foreground_network_channel_name">Сетевые запросы</string>
+    <string name="todogear_foreground_connection_channel_name">Подключение к часам</string>
+
+    <string name="battery_optimization_warning">Для корректной работы приложения, пожалуйста разрешите игнорирование оптимизации батареи</string>
+
+</resources>

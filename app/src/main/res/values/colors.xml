@@ -1,0 +1,37 @@
+<resources>
+    <color name="colorPrimary">#f9a825</color>
+    <color name="colorPrimaryDark">#f2f2f2</color>
+    <color name="colorAccent">#eda023</color>
+    <color name="color_black">#000000</color>
+    <color name="appbar_color">@color/colorPrimary</color>
+    <color name="appbar_color_dark">#eda023</color>
+    <color name="red">#e20f0f</color>
+    <color name="white">#ffffff</color>
+    <color name="icon_color">#e6a031</color>
+    <color name="enotegear_foreground_icon_color">#00a72d</color>
+    <color name="squaregear_foreground_icon_color">#FD9929</color>
+    <color name="taskgear_foreground_icon_color">#ed1b1b</color>
+    <color name="todogear_foreground_icon_color">#00a5ff</color>
+    <color name="transgear_foreground_icon_color">#0000ff</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#66d1d1d1</color>
+
+    <color name="samsung_list_separator_color">#f2f2f2</color>
+    <color name="samsung_list_separator_color_dark">#343434</color>
+
+    <color name="samsung_background_color">#f2f2f2</color>
+
+    <color name="samsung_foreground_color">#FFFFFF</color>
+    <color name="samsung_foreground_color_dark">#212121</color>
+
+    <color name="samsung_alert_dialog_background_color">#FFFFFF</color>
+
+    <color name="samsung_text_primary_color">#000000</color>
+    <color name="samsung_text_secondary_color">#212121</color>
+
+    <color name="settings_value_color">#4e9fbd</color>
+
+    <color name="squaregear_color">#ff9a0f</color>
+</resources>

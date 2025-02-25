@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="socialgear">SocialGear</string>
+    <string name="socialgear_description">VKontakte integration</string>
+    <integer name="com_vk_sdk_AppId">0</integer>
+    <!-- SocialGear -->
+    <string name="social_gear_foreground_channel_name">Connection to watch</string>
+</resources>

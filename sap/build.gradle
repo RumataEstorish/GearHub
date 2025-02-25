@@ -1,0 +1,105 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdk compile_sdk
+    buildToolsVersion = build_tools_version
+
+    defaultConfig {
+        minSdkVersion 19
+        consumerProguardFiles 'consumer-rules.pro'
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+       // coreLibraryDesugaringEnabled true
+
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+
+    flavorDimensions = ["sdk"]
+
+    productFlavors {
+        actual {
+            dimension "sdk"
+            minSdkVersion(21)
+        }
+        legacy {
+            dimension "sdk"
+            minSdkVersion(19)
+        }
+    }
+
+    sourceSets{
+        actual{
+            java.srcDirs = ['src/actual/java']
+        }
+        legacy{
+            java.srcDirs = ['src/legacy/java']
+        }
+    }
+
+    configurations {
+        actualReleaseImplementation
+        actualDebugImplementation
+        legacyReleaseImplementation
+        legacyDebugImplementation
+    }
+    lint {
+        lintConfig file('lint.xml')
+    }
+    namespace 'gearsoftware.sap'
+}
+
+dependencies {
+    api files('libs/sdk-v1.0.0.jar')
+    api files('libs/accessory-v2.6.5.jar')
+
+    api 'io.reactivex.rxjava3:rxjava:3.1.8'
+    api "io.reactivex.rxjava3:rxkotlin:3.0.1"
+    api 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    implementation 'com.google.code.gson:gson:2.11.0'
+
+    legacyDebugImplementation("com.squareup.okhttp3:okhttp") {
+        version {
+            strictly(okhttp_version_legacy)
+        }
+    }
+    legacyReleaseImplementation("com.squareup.okhttp3:okhttp") {
+        version {
+            strictly(okhttp_version_legacy)
+        }
+    }
+
+   // coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
+
+
+    actualDebugImplementation "com.squareup.okhttp3:okhttp:$okhttp_version"
+    actualReleaseImplementation "com.squareup.okhttp3:okhttp:$okhttp_version"
+
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
+
+    implementation 'com.github.stephanenicolas.toothpick:ktp:3.1.0'
+    kapt 'com.github.stephanenicolas.toothpick:toothpick-compiler:3.1.0'
+    implementation "androidx.work:work-runtime:2.9.0"
+
+
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+    //testImplementation 'junit:junit:4.13.2'
+}
